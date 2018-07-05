@@ -10,11 +10,63 @@ Standards developed by other groups can now be used so that while the original N
 Development of this collections-level data resource also facilitates further development of a linked-data scenario making it simpler and more automated to cite and attribute collections use and track these uses. Such a resource helps administrators / collection managers / curators / universities to learn about and demonstrate the value of their collections.
 
 ## Issues of the Task Group 
+DEPRECATED
 * Resource discovery -- taxonomic and geographic coverage; collecting/collector history (expeditions?); ancillary collections and data sets, such as tissues, field notes, measurements, inventories.
 * Provide guidelines for referencing collections and specimens in both human readable and machine actionable forms
 * Integrate registration of data providers with collection-level descriptions, including material that is not yet digital
 * Estimating the scope of digitization work to be done; conversely, summarize what has been digitized
 * Data quality assessment
+DEPRECATED
+
+### "Discovery”
+- Provide a standard structure for documenting data, and facilitate connecting NCD resources. 
+- Integrate registration of data providers with collection-level descriptions.
+
+Definitions: 
+A resource is a defined aggregation of entities (regardless of item-level digitization) related to natural history. Groupings include (and are not restricted to): 
+- taxonomic groups,
+- geographic coverage,
+- collecting/collector history
+- Institution
+- Event (expedition, research project, acquisition…)
+- accession
+- inventory
+
+Entities are:
+-	Specimens - tissues as a preparation of a specimen (measurements as attributes)
+-	Observations/Sightings
+-	Field notes
+-	Archives
+- Datasets (i.e., data encoded in a defined structure)
+-	Media...	
+
+Groupings are independent of subjective perspective (Fitness-for-Use). It does not care if a grouping is ancillary to the focus of the main grouping.
+
+What needs to be done
+How do these need to be encoded to facilitate discovery? [recommendations]
+How "available" and "structured" is existing data?  
+Review Use Cases in this sense
+Survey more broadly
+Provide recommendations for integrating registration of data-providers with collection-level descriptions
+
+
+### "Citations"
+What needs to be done
+Provide recommendations for referencing (how to cite or refer to) collections.
+* Human-readable forms
+* Machine-actionable forms
+* Support linked data; also related to Services Interest Group
+Facilitate connections between NCD records and other data resources
+
+### "Data Quality"
+What needs to be done
+* Define “Data Quality” as it pertains to NCD resources.
+* Review BDQ Task Group for Data Quality Tests & Assertions - [https://github.com/tdwg/bdq/blob/master/tg2/README.md]
+
+
+### “Calculations”
+Estimating the scope of digitization (backlog) work to be done, and summarize what has been digitized.
+
 
 ## Challenges
 * tracking undigitized collections (need to discover them first)
